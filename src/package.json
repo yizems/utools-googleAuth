@@ -1,0 +1,34 @@
+{
+  "name": "google-authenticator",
+  "pluginName": "Google身份验证器",
+  "description": "googleAuthenticator 即谷歌动态口令, 也叫two-factor authentication (2FA) , otp, 双重验证 ，Google身份验证器Google Authenticator是基于时间的一次性密码，可以生成一个随着时间变化的一次性密码，用于帐户验证。",
+  "homepage": "https://gitclone.com/github.com/crazykun/utools-googleAuth.git",
+  "author": "crazykun",
+  "main": "index.html",
+  "logo": "logo.png",
+  "preload": "preload.js",
+  "version": "1.0.0",
+  "pluginType": "ui",
+  "features": [
+    {
+      "code": "googleAuthenticator",
+      "explain": "googleAuthenticator",
+      "cmds": [
+        "OTP",
+        "MFA",
+        "验证码"
+      ]
+    },
+    {
+      "code": "qrcode",
+      "explain": "通过二维码添加",
+      "cmds": [
+        {
+          "type": "img",
+          "label": "通过二维码添加"
+        }
+      ],
+      "icon": "icon.png"
+    }
+  ]
+}

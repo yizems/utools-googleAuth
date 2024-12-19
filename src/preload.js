@@ -3,7 +3,7 @@ const { readFileSync, writeFileSync } = require('fs')
 window.readFile = function (file) {
     return  readFileSync(file, 'utf8')
 }
-   
+
 
 window.writeFile = function (filePath, data) {
     try {
@@ -12,4 +12,6 @@ window.writeFile = function (filePath, data) {
     } catch (err) {
         return err
     }
-}	
+}
+
+window.utools = window.rubick;
